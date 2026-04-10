@@ -14,17 +14,23 @@ main {
 }
 
 nav {
-  background: #340b49;
+  background: #713aae;
   color: white;
   padding: 15px;
   display: flex;
   justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  height: 100px; 
+  width: auto;
 }
 
 
 /* Footer */
-.footer {
-  background: #713aae;
+footer {
+  background-color: #713aae;
   color: white;
   text-align: center;
   padding: 20px 00;
@@ -53,17 +59,10 @@ nav {
   padding-top: 10px;
 }
 
-.btnAgregar{
-  background-color: #8b3edd;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
+a {
+    text-decoration: none;
+    font-size: 17px;
 }
-.btnAgregar:hover {
-  background-color: #a956f7;
-}
-
-.content-card {
-    margin: 10px;
+i {
+    font-size: 25px;
 }
