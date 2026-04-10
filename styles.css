@@ -95,3 +95,51 @@ i {
 } 
 
 /* Efectos a las cards https://getcssscan.com/css-box-shadow-examples  */
+
+
+/*Estilos luselly*/
+.bg-body-secondary{
+    background-color: rgb(234, 232, 239) !important;
+}
+
+.p-4{
+    padding: 10px 30px !important;
+}
+.btn-primary{
+    background: #713aae;
+}
+
+.btn-primary:hover{
+    background: #1e1e1f;
+    cursor: pointer;
+    
+}
+
+.textobut{
+    width: 50%;
+    
+}
+.my-3{
+    width: 500px;
+    
+}
+
+.musicaText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.musicaText img{
+    width: 300px;
+    max-width: 100%;
+}
+
+audio{
+  filter: invert(1);;
+}
+
+.px-0{
+    display: block;
+}
