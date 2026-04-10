@@ -66,3 +66,32 @@ a {
 i {
     font-size: 25px;
 }
+
+/* Estilo top5 */
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+    width: 100%;
+    height: 200px;      
+    object-fit: cover;
+}
+.card{
+    border-radius: 30px;
+    height: 100%;
+    box-shadow: #713aae 0px 7px 29px 0px;;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.btn-primary{
+    background: #713aae;
+} 
+
+/* Efectos a las cards https://getcssscan.com/css-box-shadow-examples  */
